@@ -273,9 +273,9 @@ html {
 	border-radius: 50%;
 	background-color: #d3d3d3;
 	padding: 20px;
-	margin-bottom: 25px;
+	margin-bottom: 35px;/*modificado*/
 }
-
+	
 #servicios .fila .servicio hr {
 	width: 30%;
 	margin: auto;
@@ -287,7 +287,8 @@ html {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 10px;
+	margin-bottom: 20px;/*modificado*/
+	padding: 5px 10px;/*modificado*/
 }
 
 #servicios .fila .servicio p {
@@ -610,3 +611,4 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
