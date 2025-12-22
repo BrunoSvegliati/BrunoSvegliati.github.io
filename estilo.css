@@ -253,8 +253,8 @@ html {
 	padding: 30px;
 	margin: 0 5px;
 	border-style: solid;
-	border-color: #42839E
-	border-width: 1px
+	border-color: #42839E;
+	border-width: 1px;
 	border-radius: 15px;
 	transition: .5s;
 }
@@ -316,7 +316,7 @@ html {
 .contenedor-skills .skill h3 {
 	text-align: center;
 	font-size: 24px;
-	color: #FFFFFF/*modif*/
+	color: #FFFFFF;/*modif*/
 	text-transform: uppercase;
 	color: #111135;
 	/*text-decoration: underline;*/
@@ -428,7 +428,7 @@ html {
 #portfolio .titulo-seccion {
 	text-align: center;
 	font-size: 24px;
-	color: #FFFFFF/*modif*/
+	color: #FFFFFF;	 /*modif*/
 	text-transform: uppercase;
 	color: #111135;
 	/*text-decoration: underline;*/
@@ -444,10 +444,13 @@ html {
 
 #portfolio .fila .proyecto {
 	max-width: 450px;
-	border: 1px solid #000;
 	margin: 0 10px;
 	position: relative;
 	overflow: hidden;
+	border-style: solid;
+	border-color: #42839E;
+	border-width: 1px;
+	border-radius: 15px;
 }
 
 #portfolio .fila .proyecto img {
@@ -478,7 +481,7 @@ html {
 
 #portfolio .fila .proyecto:hover .info {
 	opacity: 1;
-	bottom: 0;
+	/*bottom: 0;*/
 }
 
 
@@ -632,6 +635,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
