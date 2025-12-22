@@ -139,7 +139,8 @@ html {
 	/*max-width: 1100px;modif*/
 	margin: auto;
 	padding: 100px 15px;
-	color: #0C181D;/*modificado*/
+	/*color: #0C181D;/*modificado*/
+	background-color: #0C181D;
 	display: flex;
 }
 
@@ -179,11 +180,11 @@ html {
 }
 
 #sobremi .sobremi .titulo-seccion {
-	font-size: 22px;
+	font-size: 24px;
 	text-transform: uppercase;
-	color: #111135;
-	text-decoration: underline;
-	text-decoration-color: #d3d3d3;
+	color: #FFFFFF;
+	/*text-decoration: underline;*/
+	/*text-decoration-color: #d3d3d3;*/
 	
 }
 
@@ -200,19 +201,19 @@ html {
 }
 
 #sobremi .sobremi p {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 25px;
-	color: #000000;
+	color: #FFFFFF;
 	margin-bottom: 12px;
 }
 
 #sobremi .sobremi a {
 	display: inline-block;
 	text-decoration: none;
-	color: #000;
+	color: #FFFFFF;
 	border-radius: 30px;
 	padding: 10px 20px;
-	border: 1px solid #000;
+	border: 1px solid #FFFFFF;
 	margin-top: 30px;
 	transition: .5s;
 }
@@ -251,7 +252,7 @@ html {
 	max-width: 350px;
 	background-color: #182F3A;
 	padding: 30px;
-	margin: 0 5px;
+	margin: 0 -20px 0 -20px;
 	border-style: solid;
 	border-color: #42839E;
 	border-width: 1px;
@@ -289,16 +290,18 @@ html {
 }
 
 #servicios .fila .servicio ul {
-	/*list-style: none;*/
+	list-style: none;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 20px;/*modificado*/
 	padding: 5px 10px;/*modificado*/
-}
+	color: #FFFFFF;
+}	
 
 #servicios .fila .servicio p {
 	font-size: 14px;
 	line-height: 22px;
+	color: #FFFFFF;
 }
 
 /* seccion habilidades */
@@ -318,7 +321,7 @@ html {
 	font-size: 24px;
 	color: #FFFFFF;/*modif*/
 	text-transform: uppercase;
-	color: #111135;
+	/*color: #111135;*/
 	/*text-decoration: underline;*/
 	/*text-decoration-color: #33D7BC;
 	text-decoration-thickness: 5px;*/
@@ -430,7 +433,7 @@ html {
 	font-size: 24px;
 	color: #FFFFFF;	 /*modif*/
 	text-transform: uppercase;
-	color: #111135;
+	/*color: #111135;*/
 	/*text-decoration: underline;*/
 	/*text-decoration-color: #33D7BC;
 	text-decoration-thickness: 5px;*/
@@ -635,6 +638,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
