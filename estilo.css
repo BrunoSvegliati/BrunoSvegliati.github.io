@@ -222,20 +222,20 @@ html {
 	color: #fff;
 }
 
-
+/*SERVICIOS*/
 
 #servicios {
 	padding: 100px 15px;
 	text-align: center;
-	background-color: #f3f3f3;
+	background-color: #0C181D;/*modiff*/
 }
 
 #servicios .titulo-seccion {
-	font-size: 22px;
+	font-size: 24px;
 	text-transform: uppercase;
-	color: #111135;
-	text-decoration: underline;
-	text-decoration-color: #d3d3d3;
+	color: #FFFFFF;/*modif*/
+	/*text-decoration: underline;
+	text-decoration-color: #d3d3d3;*/
 	
 }
 
@@ -249,10 +249,13 @@ html {
 
 #servicios .fila .servicio {
 	max-width: 350px;
-	background-color: #fff;
+	background-color: #182F3A;
 	padding: 30px;
 	margin: 0 5px;
-	border-radius: 5px;
+	border-style: solid;
+	border-color: #42839E
+	border-width: 1px
+	border-radius: 15px;
 	transition: .5s;
 }
 
@@ -264,6 +267,7 @@ html {
 	font-size: 22px;
 	margin-top: 25px;
 	margin-bottom: 25px;
+	color: #FFFFFF;
 
 }
 
@@ -300,13 +304,24 @@ html {
 /* seccion habilidades */
 
 .contenedor-skills {
-	background: linear-gradient(#33D7BC, rgba(33, 16, 16, .8)), url(img/imagenn.jpg);
+	background: linear-gradient(#0C181D, rgba(33, 16, 16, .8)), url(img/imagenn.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 	padding: 100px 0;
 	text-align: center;
+}
+
+.contenedor-skills .skill h3 {
+	text-align: center;
+	font-size: 24px;
+	color: #FFFFFF/*modif*/
+	text-transform: uppercase;
+	color: #111135;
+	/*text-decoration: underline;*/
+	/*text-decoration-color: #33D7BC;
+	text-decoration-thickness: 5px;*/
 }
 
 .contenedor-skills .skill {
@@ -318,7 +333,10 @@ html {
 	display: flex;
 	justify-content: space-between;
 }
-
+.contenedor-skills .skill .info p {
+	color: #FFFFFF;
+	
+}
 .contenedor-skills .skill .lista {
 	display: inline-block;
 	margin-right: 20px;
@@ -404,16 +422,18 @@ html {
 	max-width: 1100px;
 	padding: 100px 0;
 	margin: auto;
+	background-color: #0C181D
 }
 
 #portfolio .titulo-seccion {
 	text-align: center;
-	font-size: 22px;
+	font-size: 24px;
+	color: #FFFFFF/*modif*/
 	text-transform: uppercase;
 	color: #111135;
-	text-decoration: underline;
-	text-decoration-color: #33D7BC;
-	text-decoration-thickness: 5px;
+	/*text-decoration: underline;*/
+	/*text-decoration-color: #33D7BC;
+	text-decoration-thickness: 5px;*/
 }
 
 #portfolio .fila {
@@ -450,7 +470,7 @@ html {
 	background-color: rgba(0, 0, 0, .8);
 	color: #33D7BC;
 	width: 100%;
-	padding: 100px;
+	padding: 50px;/*modif*/
 	opacity: 0;
 	bottom: -40px;
 	transition: .5s;
@@ -468,7 +488,7 @@ html {
 #contacto .titulo-seccion {
 	margin-bottom: 20px;
 	text-align: center;
-	font-size: 22px;
+	font-size: 24px;
 	text-transform: uppercase;
 	color: #111135;
 	text-decoration: underline;
@@ -612,6 +632,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
