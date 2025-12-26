@@ -423,7 +423,7 @@ html {
 
 
 #portfolio {
-	max-width: 1300px;
+	max-width: 1600px;/*modif*/
 	padding: 100px 0;
 	margin: auto;
 	background-color: #0C181D
@@ -473,21 +473,29 @@ html {
 
 #portfolio .fila .proyecto .info {
 	position: absolute;
-	left: 0;
 	background-color: rgba(0, 0, 0, .8);
 	color: #33D7BC;
 	width: 100%;
-	padding: 50px;/*modif*/
-	opacity: 0;
-	bottom: -40px;
+	padding: 100px 50px 100px 50px;/*modif*/
+	/*opacity: 0;*/
+	bottom: 0px;/*modif*/
 	transition: .5s;
 }
 
 #portfolio .fila .proyecto:hover .info {
 	opacity: 1;
+	box-shadow: 1px 5px 96px -16px rgba(0,255,250,0.72) inset;
+	-webkit-box-shadow: 1px 5px 96px -16px rgba(0,255,250,0.72) inset;
+	-moz-box-shadow: 1px 5px 96px -16px rgba(0,255,250,0.72) inset;
 	/*bottom: 0;*/
 }
 
+#portfolio .fila .proyecto .info h4 {
+	text-align: center;
+	
+}
+
+/*SECCION CONTACTO*/
 
 #contacto {
 	padding: 100px 15px;
@@ -639,6 +647,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
