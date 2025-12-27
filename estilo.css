@@ -168,7 +168,7 @@ html {
 	height: 100vh;
 	inset: 0;
 	margin: auto;
-	background: conic-gradient(from 0deg, #001F3D, #ED985F, #F7B980, #E6E6E6)
+	background-color: conic-gradient(from 0deg, #001F3D, #ED985F, #F7B980, #E6E6E6);
 	animation: spinFondo 8s linear infinite;
 }
 @keyframes spinFondo {
@@ -705,6 +705,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
