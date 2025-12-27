@@ -138,19 +138,47 @@ html {
 }
 
 .fondo-outer-container{
-	position: fixed;
+	/*position: ;*/
 	height: 100%;
 	width: 100%;
 	z-index: 0;
 	inset: 0;
 	margin: auto;
+	filter: blur(100px);
+	
 	
 }
 
-
-
-
-
+.fondo-inner-container{
+	border-radius: 5000px;
+	position: absolute;
+	inset: 0;
+	margin: auto;
+	width: 100vw;
+	height: 100vh;
+	min-widht: 1000px;
+	overflow: hidden;
+	background-color: #fff;
+	transform: scale(0.6);
+	
+}
+.fondo{
+	position: absolute;
+	widht: 100vw;
+	height: 100vh;
+	inset: 0;
+	margin: auto;
+	background: conic-gradient(from 0deg, #001F3D, #ED985F, #F7B980, #E6E6E6)
+	animation: spinFondo 8s linear infinite;
+}
+@keyframes spinFondo {
+	0% {
+		transform: rotate(0deg) scale(2);
+	}
+	100% {
+		transform: rotate(1turn) scale(2);
+	}
+}
 
 
 /*SECCION SOBER MI--------------------*/
@@ -677,6 +705,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
