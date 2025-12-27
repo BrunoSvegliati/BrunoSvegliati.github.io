@@ -137,6 +137,20 @@ html {
 	display: none;
 }
 
+.fondo-outer-container{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+	inset: 0;
+	margin: auto;
+	
+}
+
+
+
+
+
 
 
 /*SECCION SOBER MI--------------------*/
@@ -271,7 +285,7 @@ html {
 
 #servicios .fila .servicio:hover {
 	box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
-	padding-bottom: 40px;
+	
 	
 }
 
@@ -663,6 +677,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
