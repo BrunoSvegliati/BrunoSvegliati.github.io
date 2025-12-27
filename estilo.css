@@ -10,12 +10,10 @@
 html {
 	scroll-behavior: smooth;
 }
-#colorbody {
-	background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
-}
+
 
 #Inicio{
-	/*background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
+	background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
 	background-size: cover;
 	background-position: center center;
 	height: 100vh;
@@ -148,8 +146,9 @@ html {
 	/*max-width: 1100px;modif*/
 	margin: auto;
 	padding: 100px 15px;
+	background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
 	/*color: #0C181D;/*modificado*/
-	background-color: #0C181D;
+	/*background-color: #0C181D;*/
 	display: flex;
 }
 
@@ -237,7 +236,8 @@ html {
 #servicios {
 	padding: 100px 15px;
 	text-align: center;
-	background-color: #0C181D;/*modiff*/
+	background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
+	/*background-color: #0C181D;/*modiff*/
 }
 
 #servicios .titulo-seccion {
@@ -318,7 +318,8 @@ html {
 /* seccion habilidades --------------------------------------*/
 
 .contenedor-skills {
-	background: linear-gradient(#0C181D, rgba(33, 16, 16, .8)), url(img/imagenn.jpg);
+	background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
+	/*background: linear-gradient(#0C181D, rgba(33, 16, 16, .8)), url(img/imagenn.jpg)*/
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -432,12 +433,15 @@ html {
 	}
 }
 
+/*SECCION PORTFOLIO---------------------------------------*/
+
 
 #portfolio {
 	max-width: 1600px;/*modif*/
 	padding: 100px 0;
 	margin: auto;
-	background-color: #0C181D
+	background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
+	/*background-color: #0C181D*/
 }
 
 #portfolio .titulo-seccion {
@@ -512,6 +516,7 @@ html {
 	padding: 100px 15px;
 }
 #contacto .titulo-seccion {
+	background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
 	margin-bottom: 20px;
 	text-align: center;
 	font-size: 24px;
@@ -521,7 +526,7 @@ html {
 	text-decoration: #d3d3d3;
 	text-decoration-thickness: 5px;
 }
-
+/*
 #contacto .contenedor-form .fila{
 	max-width: 1100px;
 	margin: auto;
@@ -563,7 +568,7 @@ html {
 	background-color: #33D7BC;
 	color: #fff;
 }
-
+*/
 footer{
 	background-color: #000;
 	color: #fff;
@@ -658,6 +663,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
