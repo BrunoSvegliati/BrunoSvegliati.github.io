@@ -573,6 +573,8 @@ body, img {
 
 #contacto {
 	padding: 100px 15px;
+	background-color: rgb(2, 5, 19);
+	
 }
 #contacto .titulo-seccion {
 	background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
@@ -580,10 +582,31 @@ body, img {
 	text-align: center;
 	font-size: 24px;
 	text-transform: uppercase;
-	color: #111135;
+	color: #FFF;
 	text-decoration: underline;
 	text-decoration: #d3d3d3;
 	text-decoration-thickness: 5px;
+}
+
+#contacto .contenedor-form{
+	color: #FFF;
+	text-align: center;
+	
+}
+
+#contacto .contenedor-form a {
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 30px;
+	padding: 10px 20px;
+	border: 1px solid #FFF;
+	transition: .5s
+	
+}
+#contacto .contenedor-form a:hover{
+	background-color: #33D7BC;
 }
 /*
 #contacto .contenedor-form .fila{
@@ -722,6 +745,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
