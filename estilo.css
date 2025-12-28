@@ -238,6 +238,8 @@ body, img {
 	font-size: 24px;
 	text-transform: uppercase;
 	color: #FFFFFF;
+	text-align: center;
+	
 	/*text-decoration: underline;*/
 	/*text-decoration-color: #d3d3d3;*/
 	
@@ -248,6 +250,8 @@ body, img {
 	font-weight: bold;
 	margin: 20px 0;
 	letter-spacing: 2px;
+	text-align: center;
+	
 }
 
 
@@ -260,6 +264,8 @@ body, img {
 	line-height: 25px;
 	color: #FFFFFF;
 	margin-bottom: 12px;
+	text-align: center;
+	
 }
 
 #sobremi .sobremi a {
@@ -271,6 +277,7 @@ body, img {
 	border: 1px solid #FFFFFF;
 	margin-top: 30px;
 	transition: .5s;
+	
 }
 
 #sobremi .sobremi a:hover {
@@ -574,10 +581,11 @@ body, img {
 #contacto {
 	padding: 100px 15px;
 	background-color: rgb(2, 5, 19);
+	border-top: 1px solid #33D7BC;
 	
 }
 #contacto .titulo-seccion {
-	background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
+	/*background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
 	margin-bottom: 20px;
 	text-align: center;
 	font-size: 24px;
@@ -595,6 +603,7 @@ body, img {
 }
 
 #contacto .contenedor-form a {
+	margin: 20px;
 	color: #FFF;
 	text-align: center;
 	text-decoration: none;
@@ -604,9 +613,12 @@ body, img {
 	border: 1px solid #FFF;
 	transition: .5s
 	
+	
 }
 #contacto .contenedor-form a:hover{
 	background-color: #33D7BC;
+	color: rgb(2, 5, 19);
+	
 }
 /*
 #contacto .contenedor-form .fila{
@@ -745,6 +757,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
