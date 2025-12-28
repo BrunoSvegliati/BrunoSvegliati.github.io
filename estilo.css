@@ -161,7 +161,7 @@ body, img {
 	margin: auto;
 	width: 100vw;
 	height: 100vh;
-	min-width: 1000px;
+	/*min-width: 1000px;CHEQUEAR EN EL RESPONSIVE COMO SE VE*/
 	overflow: hidden;
 	/*background-color: #fff;*/
 	transform: scale(0.6);
@@ -231,7 +231,7 @@ body, img {
 }
 
 #sobremi .sobremi {
-	margin: 0 40px;
+	margin: 30px auto;/*modif*/
 }
 
 #sobremi .sobremi .titulo-seccion {
@@ -484,7 +484,7 @@ body, img {
 
 
 #portfolio {
-	max-width: 1600px;/*modif*/
+	/*max-width: 1700px;/*modif*/
 	padding: 100px 0;
 	margin: auto;
 	background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
@@ -496,6 +496,7 @@ body, img {
 	font-size: 24px;
 	color: #FFFFFF;	 /*modif*/
 	text-transform: uppercase;
+	margin-bottom: 30px;
 	/*color: #111135;*/
 	/*text-decoration: underline;*/
 	/*text-decoration-color: #33D7BC;
@@ -505,7 +506,7 @@ body, img {
 #portfolio .fila {
 	display: flex;
 	justify-content: space-between;
-	margin: 30px 0;
+	margin: 20px 60px 20px 60px;/*modif*/
 }
 
 #portfolio .fila .proyecto {
@@ -538,6 +539,7 @@ body, img {
 	background-color: rgba(0, 0, 0, .8);
 	color: #33D7BC;
 	width: 100%;
+	height: 100%;
 	padding: 100px 50px 100px 50px;/*modif*/
 	/*opacity: 0;*/
 	bottom: 0px;/*modif*/
@@ -554,8 +556,18 @@ body, img {
 
 #portfolio .fila .proyecto .info h4 {
 	text-align: center;
+	font-size: larger;
+	margin-bottom: 20px;
+	text-transform: uppercase;
 	
 }
+#portfolio .fila .proyecto .info p {
+	text-align: center;
+	
+}
+
+
+
 
 /*SECCION CONTACTO*/
 
@@ -710,6 +722,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
