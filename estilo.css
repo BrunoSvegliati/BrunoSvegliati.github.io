@@ -10,7 +10,7 @@
 html {
 	scroll-behavior: smooth;
 }
-body {
+body, img {
 	margin: 0;
 	padding: 0;
 }
@@ -710,6 +710,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
