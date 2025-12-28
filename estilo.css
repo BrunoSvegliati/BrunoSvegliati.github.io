@@ -275,8 +275,9 @@ body, img {
 	border-radius: 30px;
 	padding: 10px 20px;
 	border: 1px solid #FFFFFF;
-	margin-top: 30px;
+	margin: 15px 0 0 472px;
 	transition: .5s;
+	
 	
 }
 
@@ -757,6 +758,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
