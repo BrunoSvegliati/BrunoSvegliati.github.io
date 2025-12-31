@@ -193,10 +193,10 @@ body, img {
 	/*max-width: 1100px;modif*/
 	margin: auto;
 	padding: 100px 15px;
-	background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
+	background: linear-gradient(rgb(4, 10, 37), rgb(2, 5, 19));/*modif*/
 	/*color: #0C181D;/*modificado*/
 	/*background-color: #0C181D;*/
-	display: flex;
+	/*display: flex;modif*/
 }
 
 #sobremi .contenedor-foto {
@@ -232,6 +232,9 @@ body, img {
 
 #sobremi .sobremi {
 	margin: 30px auto;/*modif*/
+	display: grid;
+	place-items: center;
+	
 }
 
 #sobremi .sobremi .titulo-seccion {
@@ -264,6 +267,8 @@ body, img {
 	line-height: 25px;
 	color: #FFFFFF;
 	margin-bottom: 12px;
+	margin-right: 70px;
+	margin-left: 70px;
 	text-align: center;
 	
 }
@@ -275,7 +280,7 @@ body, img {
 	border-radius: 30px;
 	padding: 10px 20px;
 	border: 1px solid #FFFFFF;
-	/*margin: 15px 0 0 472px;*/
+	margin-top: 50px;/*modif*/
 	transition: .5s;
 	
 	
@@ -373,7 +378,7 @@ body, img {
 /* seccion habilidades --------------------------------------*/
 
 .contenedor-skills {
-	background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
+	background: linear-gradient (rgb(4, 10, 37), (rgb(2, 4, 2));/*modif*/
 	/*background: linear-gradient(#0C181D, rgba(33, 16, 16, .8)), url(img/imagenn.jpg)*/
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -381,6 +386,8 @@ body, img {
 	background-position: center center;
 	padding: 100px 0;
 	text-align: center;
+	color: #fff;
+	
 }
 
 .contenedor-skills #skills h3 {
@@ -758,6 +765,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
