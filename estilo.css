@@ -378,7 +378,7 @@ body, img {
 /* seccion habilidades --------------------------------------*/
 
 .contenedor-skills {
-	background: linear-gradient (rgb(4, 10, 37), (rgb(2, 4, 2));/*modif*/
+	background: linear-gradient (rgb(4, 10, 37), rgb(2, 4, 2));/*modif*/
 	/*background: linear-gradient(#0C181D, rgba(33, 16, 16, .8)), url(img/imagenn.jpg)*/
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -765,6 +765,7 @@ footer a {
   	margin-bottom: 15px;
   }
 }
+
 
 
 
