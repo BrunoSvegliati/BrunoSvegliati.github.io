@@ -238,8 +238,9 @@ body, img {
 }
 
 #sobremi .sobremi .titulo-seccion {
-	font-size: 24px;
+	font-size: 26px;
 	text-transform: uppercase;
+	font-weight: 700;/*modif*/
 	color: #FFFFFF;
 	text-align: center;
 	
@@ -263,13 +264,14 @@ body, img {
 }
 
 #sobremi .sobremi p {
-	font-size: 16px;
+	font-size: 21px;
 	line-height: 25px;
 	color: #FFFFFF;
 	margin-bottom: 12px;
 	margin-right: 70px;
 	margin-left: 70px;
 	text-align: center;
+	width: 80%;/*modif*/
 	
 }
 
@@ -301,7 +303,7 @@ body, img {
 }
 
 #servicios .titulo-seccion {
-	font-size: 24px;
+	font-size: 25px;
 	text-transform: uppercase;
 	color: #FFFFFF;/*modif*/
 	/*text-decoration: underline;
@@ -387,12 +389,13 @@ body, img {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
+	border-top: 1px solid #33D7BC;
 	
 }
 
 .contenedor-skills #skills h3 {
 	text-align: center;
-	font-size: 26px;
+	font-size: 25px;
 	text-decoration-color: #FFFFFF;
 	/*color: #FFFFFF;modif*/
 	text-transform: uppercase;
@@ -503,15 +506,16 @@ body, img {
 	padding: 100px 0;
 	margin: auto;
 	background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
+	border-top: 1px solid #33D7BC;
 	/*background-color: #0C181D*/
 }
 
 #portfolio .titulo-seccion {
 	text-align: center;
-	font-size: 24px;
+	font-size: 25px;
 	color: #FFFFFF;	 /*modif*/
 	text-transform: uppercase;
-	margin-bottom: 30px;
+	margin-bottom: 50px;/*modif*/
 	/*color: #111135;*/
 	/*text-decoration: underline;*/
 	/*text-decoration-color: #33D7BC;
@@ -596,7 +600,7 @@ body, img {
 	/*background: linear-gradient(rgb(2, 5, 19),rgb(4, 10, 37));/*modif*/
 	margin-bottom: 20px;
 	text-align: center;
-	font-size: 24px;
+	font-size: 25px;
 	text-transform: uppercase;
 	color: #FFF;
 	text-decoration: underline;
@@ -718,13 +722,16 @@ footer a {
 		padding: 50px 0;
 		display: block;
 	}
+	/*
 	#sobremi .contenedor-foto{
 		max-width: 200px;
 		margin: auto;
 	}
+	
 	#sobremi .contenedor-foto img {
 		padding: 8px;
 	}
+	*/
   #sobremi .sobremi .titulo-seccion {
   	text-align: center;
   }
@@ -764,7 +771,11 @@ footer a {
   	width: 100%;
   	margin-bottom: 15px;
   }
+  #portfolio .fila .proyecto .info {
+    padding: 10px 50px 100px 50px;
 }
+}
+
 
 
 
